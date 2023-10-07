@@ -1,5 +1,5 @@
 import pytest
-from CalculatorApp.Calculator_Jass import *
+from Examples.CalculatorApp.CalculatorJass import *
 
 
 def test_add_numbers():

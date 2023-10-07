@@ -1,5 +1,5 @@
 import pytest
-from CalculatorApp.calculator_saran import *
+from Examples.CalculatorApp.calculatorSaran import *
 
 
 def test_add_numbers():
