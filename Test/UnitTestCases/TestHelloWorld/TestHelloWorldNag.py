@@ -1,5 +1,5 @@
 import unittest
-from HelloWorldApp.HelloWorld_Nagaraju import hello_world
+from Examples.HelloWorldApp.HelloWorldNag import hello_world
 
 
 class MyTestCase(unittest.TestCase):
