@@ -1,5 +1,5 @@
 import pytest
-from HelloWorldApp.HelloWorld_Jass import hello_world
+from Examples.HelloWorldApp.HelloWorldJass import hello_world
 
 
 def test_hello_world():

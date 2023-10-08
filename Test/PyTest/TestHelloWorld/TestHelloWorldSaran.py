@@ -1,5 +1,5 @@
 import pytest
-from HelloWorldApp.HelloWorld_saran import hello_world
+from Examples.HelloWorldApp.HelloWorldSaran import hello_world
 
 
 def test_hello_world():
