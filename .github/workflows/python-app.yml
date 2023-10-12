@@ -32,3 +32,7 @@ jobs:
       run: |
         coverage run -m pytest Test/PyTest/*/*.py
         coverage report -m
+    - name: Test with unittest coverage
+      run: |
+        coverage run -m unittest Test/UnitTest/*/*.py
+        coverage report -m
