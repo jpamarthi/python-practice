@@ -18,6 +18,10 @@ class MyTestCase(unittest.TestCase):
         assert multipli_numbers(2, 3) == 6
         assert multipli_numbers(5, 6 ) == 30
 
+    def test_exponentiation_numbers(self):
+        assert exponentiation_number(2, 3) == 8
+        assert exponentiation_number(3, 3) == 27
+
 
 if __name__ == '__main__':
     unittest.main()
