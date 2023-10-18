@@ -21,3 +21,5 @@ def test_subtract_numbers():
     assert subtract_numbers(8, 6) == 2
 
 
+def test_modulo_numbers():
+    assert subtract_numbers(4, 2) == 2
