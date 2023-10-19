@@ -19,5 +19,10 @@ class MyTestCase(unittest.TestCase):
     def test_subtract_numbers(self):
             assert subtract_numbers(8, 6) == 2
 
+
+    def test_modulo_numbers(self):
+        assert modulo_numbers(4, 2) == 0
+
+
 if __name__ == '__main__':
     unittest.main()
