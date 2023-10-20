@@ -22,4 +22,4 @@ def test_subtract_numbers():
 
 
 def test_modulo_numbers():
-    assert modulo_numbers(4, 2) == 2
+    assert modulo_numbers(4, 2) == 0
