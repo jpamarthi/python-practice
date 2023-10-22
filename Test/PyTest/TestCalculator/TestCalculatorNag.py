@@ -1,5 +1,5 @@
 import pytest
-from Examples.CalculatorApp.CalculaterNag import *
+from Examples.CalculatorApp.CalculaterNag import add_numbers, subtract_numbers, divide_numbers, multipli_numbers
 
 
 def test_subtract_numbers():
