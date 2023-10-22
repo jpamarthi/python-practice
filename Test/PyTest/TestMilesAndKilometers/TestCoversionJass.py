@@ -1,5 +1,5 @@
 import pytest
-from Examples.MilesAndKilometersApp.ConversionJass import *
+from Examples.MilesAndKilometersApp.ConversionJass import kilometers_to_miles, miles_to_kilometers
 
 
 def test_kilometers_to_miles():
