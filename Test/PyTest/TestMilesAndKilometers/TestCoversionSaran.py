@@ -1,5 +1,5 @@
 import pytest
-from Examples.MilesAndKilometersApp.ConversionSaran import *
+from Examples.MilesAndKilometersApp.ConversionSaran import miles_to_kilometers,kilometers_to_miles
 
 
 def test_kilometers_to_miles():
