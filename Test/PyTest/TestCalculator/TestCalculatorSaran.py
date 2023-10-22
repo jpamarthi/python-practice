@@ -1,5 +1,5 @@
 import pytest
-from Examples.CalculatorApp.calculatorSaran import *
+from Examples.CalculatorApp.calculatorSaran import add_numbers,divide_numbers,subtract_numbers,modulo_numbers,multipli_numbers
 
 
 def test_add_numbers():
