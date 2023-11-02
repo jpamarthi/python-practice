@@ -1,5 +1,5 @@
 import pytest
-from Examples.CalculatorApp.calculatorSaran import add_numbers,divide_numbers,subtract_numbers,modulo_numbers,multipli_numbers
+from Examples.CalculatorApp.calculatorSaran import add_numbers,divide_numbers,subtract_numbers,modulo_numbers,multipli_numbers,find_odd_even
 
 
 def test_add_numbers():
@@ -23,3 +23,8 @@ def test_subtract_numbers():
 
 def test_modulo_numbers():
     assert modulo_numbers(4, 2) == 0
+
+
+def test_find_odd_even():
+    assert find_odd_even(1) == "Odd"
+    assert find_odd_even(2) == "Even"

@@ -22,3 +22,10 @@ def multipli_numbers(a, b):
 def modulo_numbers(a, b):
     return a % b
 
+
+# Finding a number if it is odd or even
+def find_odd_even(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
