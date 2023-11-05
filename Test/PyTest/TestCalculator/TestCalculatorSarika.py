@@ -1,5 +1,5 @@
 import pytest
-from Examples.CalculatorApp.CalculatorJass import add_numbers, subtract_numbers, divide_numbers, multipli_numbers, \
+from Examples.CalculatorApp.CalculatorSarika import add_numbers, subtract_numbers, divide_numbers, multipli_numbers, \
     exponentiation_number
 
 
