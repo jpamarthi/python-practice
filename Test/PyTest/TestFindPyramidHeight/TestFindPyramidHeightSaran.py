@@ -1,5 +1,5 @@
 import pytest
-from Examples.FindPyramidHeightApp.FindPyramidHeightJass import find_pyramid_height
+from Examples.FindPyramidHeightApp.FindPyramidHeightSaran import find_pyramid_height
 
 
 def test_find_pyramid_height():
@@ -12,3 +12,4 @@ def test_find_pyramid_height():
     assert find_pyramid_height(-1) == 0
     assert find_pyramid_height(-1000) == 0
     assert find_pyramid_height(1001) == 44
+
