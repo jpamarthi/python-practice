@@ -1,5 +1,5 @@
 import unittest
-from Examples.CalculatorApp.CalculaterNag import *
+from Examples.CalculatorApp.CalculaterNag import subtract_numbers, add_numbers, divide_numbers, multipli_numbers
 
 
 class MyTestCase(unittest.TestCase):
