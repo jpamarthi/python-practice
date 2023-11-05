@@ -28,3 +28,4 @@ def test_modulo_numbers():
 def test_find_odd_even():
     assert find_odd_even(1) == "Odd"
     assert find_odd_even(2) == "Even"
+
