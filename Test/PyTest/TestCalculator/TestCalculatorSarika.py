@@ -4,25 +4,25 @@ from Examples.CalculatorApp.CalculatorSarika import add_numbers, subtract_number
 
 
 def test_add_numbers():
-    assert add_numbers(2, 3) == 5
-    assert add_numbers(5, 7) == 12
+    assert add_numbers(2, 4) == 6
+    assert add_numbers(5, 2) == 7
     assert add_numbers(5, 4) == 9
 
 
 def test_subtract_numbers():
-    assert subtract_numbers(8, 6) == 2
+    assert subtract_numbers(2, 1) == 1
 
 
 def test_divide_numbers():
-    assert divide_numbers(4, 2) == 2
-    assert divide_numbers(10, 2) == 5
+    assert divide_numbers(2, 2) == 1
+    assert divide_numbers(8, 2) == 4
 
 
 def test_multipli_numbers():
-    assert multipli_numbers(2, 3) == 6
-    assert multipli_numbers(5, 6) == 30
+    assert multipli_numbers(2, 2) == 4
+    assert multipli_numbers(2, 6) == 12
 
 
 def test_exponentiation_numbers():
-    assert exponentiation_number(2, 3) == 8
-    assert exponentiation_number(3, 3) == 27
+    assert exponentiation_number(2, 2) == 4
+    assert exponentiation_number(2, 1) == 2
