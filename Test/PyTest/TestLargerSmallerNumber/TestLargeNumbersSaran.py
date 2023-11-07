@@ -1,5 +1,5 @@
 import pytest
-from Examples.FindLargestNumber.FindLargestNumberSaran import find_largest_two_numbers, find_largest_three_numbers
+from Examples.FindLargestSmallestNumberApp.FindLargestNumberSaran import find_largest_two_numbers, find_largest_three_numbers
 
 
 def test_find_largest_two_numbers():

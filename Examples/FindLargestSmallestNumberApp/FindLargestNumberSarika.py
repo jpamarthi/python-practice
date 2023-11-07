@@ -24,3 +24,12 @@ def find_largest_three_numbers(number1, number2, number3):
         largest_number = number3
 
     return largest_number
+
+
+def find_smallest_two_numbers(number1, number2):
+    # Choose the smaller number
+    if number1 < number2:
+        smaller_number = number1
+    else:
+        smaller_number = number2
+    return smaller_number
