@@ -33,3 +33,22 @@ def find_smallest_two_numbers(number1, number2):
     else:
         smaller_number = number2
     return smaller_number
+
+
+def find_smallest_three_numbers(number1, number2, number3):
+    # We temporarily assume that the first number
+    # is the smallest one.
+    # We will verify this soon.
+    smallest_number = number1
+
+    # We check if the second number is smaller than current smallest_number
+    # and update smallest_number if needed.
+    if number2 < smallest_number:
+        smallest_number = number2
+
+    # We check if the third number is smaller than current smallest_number
+    # and update smallest_number if needed.
+    if number3 < smallest_number:
+        smallest_number = number3
+
+    return smallest_number
