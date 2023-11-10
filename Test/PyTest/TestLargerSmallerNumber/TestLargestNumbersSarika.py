@@ -22,5 +22,5 @@ def test_find_smallest_two_numbers():
 def test_find_smallest_three_numbers():
     assert find_smallest_three_numbers(100, 200, 400) == 100
     assert find_smallest_three_numbers(800, 100, 200) == 100
-    assert find_smallest_three_numbers(100, 700, 200) == 100
+    assert find_smallest_three_numbers(200, 700, 100) == 100
 

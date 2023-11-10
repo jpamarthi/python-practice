@@ -7,6 +7,7 @@ class MyTestCase(unittest.TestCase):
         assert add_numbers(2, 3) == 5
         assert add_numbers(5, 7) == 12
 
+
     def test_divide_numbers(self):
             assert divide_numbers(4, 2) == 2
             assert divide_numbers(10, 2) == 5
