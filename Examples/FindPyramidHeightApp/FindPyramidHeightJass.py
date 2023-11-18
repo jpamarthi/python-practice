@@ -35,6 +35,6 @@ def find_pyramid_height(blocks):
         # 2b. sub blocks - height
         blocks -= height
 
-    # print("The height of the pyramid:", height)
+    # print("The height of the pyramid is here :", height)
     return height
 
