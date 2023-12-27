@@ -1,0 +1,8 @@
+import pytest
+from Examples.InterviewProblemsApp.InterviewProblemsNag import find_sum_in_list
+
+
+def test_find_sum_in_list():
+    assert not find_sum_in_list([1, 3, 4, 9], 8)
+    assert find_sum_in_list([3, 5, 6, 9], 11)
+    assert find_sum_in_list([4, 2, 5, 3, 8], 7)
