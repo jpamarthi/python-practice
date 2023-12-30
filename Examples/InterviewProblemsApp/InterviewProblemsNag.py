@@ -17,9 +17,11 @@ def find_sum_in_list_3(lst, s):
     while True:
         # Step 2: Add the first and last elements
         result_sum = lst[i] + lst[j]
-        # Step 3: Check if the result is greater or lesser or equal
+        # Step 3: Check if the indices are equal to each other to stop the program
+        if j == -len(lst) + i:
+            break
         # Step 4: If it is equal return True
-        if result_sum == s:
+        elif result_sum == s:
             return True
         # Step 5: If the sum is greater, then move the ending pointer backwards
         elif result_sum > s:
