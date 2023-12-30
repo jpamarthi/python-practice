@@ -1,4 +1,4 @@
-def find_sum_in_list(lst, s):
+def find_sum_in_list_approach1(lst, s):
     # Step 1: Iterate each number in the outer loop
     for i in range(0, len(lst) - 1):
         # Step 2: Iterate through each number inner loop
