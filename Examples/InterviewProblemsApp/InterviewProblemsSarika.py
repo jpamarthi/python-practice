@@ -1,4 +1,4 @@
-def find_sum_in_list(lst, s):
+def find_sum_in_list_approach1(lst, s):
     # Step 1: Iterate each number in the outer loop
     for i in range(0, len(lst) - 1):
         # Step 2: Iterate through each number inner loop
@@ -10,7 +10,7 @@ def find_sum_in_list(lst, s):
     return False
 
 
-def find_sum_in_list_3(lst, s):
+def find_sum_in_list_approach3(lst, s):
     i = 0
     j = -1
     # Step 1: Iterate through the list from both directions
@@ -31,16 +31,16 @@ def find_sum_in_list_3(lst, s):
     return False
 
 
-def find_sum_in_list_4(lst, s):
+def find_sum_in_list_approach4(lst, s):
     # Step 1: Create empty dict
     sum_dict = {}
     # Step 2: Iterate through the list
-    for i in range(len(lst)):
+    for elem in lst:
         # Step 3: Subtract each number from Sum and use the result to search
-        find = s - lst[i]
+        find = s - elem
         # Step 4: If the result from step3 is not available in the dict then add it to dict
-        if not sum_dict[find]:
-            sum_dict[find] = 1
+        if find not in sum_dict.keys():
+            sum_dict[elem] = 1
         # Step 5: Else return True
         else:
             return True
